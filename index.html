@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <header>
+        <img src = "./logo.jpg" >
+        <p><a href="">HOME</a> <tr>
+        <a href="">My application</a>
+        <a href="">Contact</a>
+        <a href="./profile.html">Profile</a> </p>
+    </header>
+    <hr>
+    <main>
+    <form>
+        <label for="name">Full Name: </label>
+        <input type="text" id="name" name="name" placeholder="enter your name"><br>
+        
+        <label for="class">Class: </label>
+        <input type="text" id="class" name="class" placeholder="enter your class"><br>
+
+        <label for="college">College Name:   </label>
+        <input type="text" id="college" name="college" placeholder="enter your college"><br>
+
+        <label for="gender">Gender: </label>
+        <input type="radio" id="gender" name="gender" value="male"> Male
+        <input type="radio" id="gender" name="gender" value="female"> Female<br>
+
+        <label for="dob">Date Of Birth: </label>
+        <input type="date" id="dob" name="dob"><br>
+
+        <label for="email"> Email: </label>
+        <input type="email" id="email" name="email" placeholder="it should contain @,."><br>
+
+        <label for="qualification">Qualification: </label>
+        <select id="qualification" name="qualification">
+            <option value="B.Tech">B.Tech</option>
+            <option value="B.Sc">B.Sc</option>
+            <option value="BA">BA</option>
+            <option value="M.Tech">M.Tech</option>
+            <option value="M.Sc">M.Sc</option>
+            <option value="MA">MA</option>
+        </select><br>
+
+        <label  for="address">Address: </label>
+        <textarea id="address" name="address" rows="4" cols="50"  ></textarea><br>
+
+        <label for="number">Phone number</label>
+        <input type="tel" id="number" name="number" placeholder="only 10 digits are allowed" maxlength="10" required><br>
+
+        <input type="submit" id="submit" name="submit" value="Submit"><br><br><br><br>
+    </form>
+    </main>
+    <hr>
+    <footer>
+        <a href="">Privacy and Policy</a><br>
+        <a href="">Terms and Conditions</a><br>
+        <h2>LionInstitute.in</h2>
+        Copyright 2023 <a href="">@LionInstitute.in</a> All rights reserved
+    </footer>
+</body>
+</html>
